@@ -51,7 +51,7 @@ class ExampleController extends Controller
         catch (\Tymon\JWTAuth\Exceptions\JWTException $e) 
         {
 
-            return response()->json(['token_absents' => $e->getMessage()], 500);
+            return response()->json(['token_absentss' => $e->getMessage()], 500);
 
         }
 
